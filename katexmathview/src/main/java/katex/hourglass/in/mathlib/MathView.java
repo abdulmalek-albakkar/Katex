@@ -121,11 +121,12 @@ public class MathView extends WebView {
         "margin: 0px;"+
         "padding: 0px;"+
         "font-size:" +this.text_size+"px;"+
+        "direction:rtl;"+
         "color:"+getHexColor(this.text_color)+";"+
         " }"+
         " </style>"+
         "    </head>\n" +
-        "    <body>\n" +
+        "    <body dir=\"rtl\">\n" +
         "        {formula}\n" +
         "    </body>\n" +
         "</html>";
